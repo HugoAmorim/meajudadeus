@@ -6,7 +6,6 @@
 
 body {
   background-image: url(https://wallpapers.com/images/featured-full/pepe-the-frog-fc0xi68rw21ini90.jpg);
-
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -17,15 +16,15 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  padding: 48px;
+  padding: 21px;
   position: fixed;
   width: 100%;
   background-color: #5b5fdd49;
 }
 
 button {
-  padding: 16px 24px;
-  border-radius: 8px;
+  padding: 40px 60px;
+  border-radius: 20px;
   border: 1px solid #50e16f;
   background-color: transparent;
   color: hsl(155, 72%, 67%);
@@ -36,7 +35,7 @@ button {
 
   font-family: "Inter";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 41px;
   line-height: 125%;
 }
 
@@ -80,7 +79,7 @@ button {
   font-size: 20px;
   line-height: 125%;
 
-  color: #3259ad;
+  color: #ffffff;
 
   text-align: center;
 }
@@ -89,18 +88,18 @@ input {
   appearance: none;
   -webkit-appearance: none;
 
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
 
-  border: 2px solid #27272a;
+  border: 2px solid #3c866a;
   border-radius: 8px;
 
-  background: #18181b;
+  background: #96d3bd62;
 }
 
 input:checked {
-  background: #24aa29;
-  border: 2px solid #20b049;
+  background: #7ad87dc4;
+  border: 2px solid #ffffff;
 }
 @media (max-width: 575px) {
   button div {
